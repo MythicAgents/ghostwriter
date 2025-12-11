@@ -5,6 +5,6 @@
   "exclude_documentation_c2": false,
   "exclude_agent_icons": false,
   "remote_images": {
-    "ghostwriter": "ghcr.io/mythicagents/ghostwriter:v0.0.0.3"
+    "ghostwriter": "ghcr.io/mythicagents/ghostwriter:v0.0.0.4"
   }
 }
