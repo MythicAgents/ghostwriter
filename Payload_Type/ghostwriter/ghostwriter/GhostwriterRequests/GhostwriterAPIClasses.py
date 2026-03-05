@@ -27,7 +27,7 @@ class GhostwriterClient(object):
             "Authorization": f"Bearer {self._credentials.api_token}",
             "Content-Type": "application/json"
         }
-        self.transport = AIOHTTPTransport(url=self._url, timeout=10, headers=self.headers)
+        self.transport = AIOHTTPTransport(url=self._url, timeout=10, headers=self.headers, ssl=False)
         self.client = Client(transport=self.transport, fetch_schema_from_transport=False, )
         self.session = None
         self.last_error = ""

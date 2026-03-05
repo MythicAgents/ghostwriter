@@ -12,6 +12,7 @@ class Ghostwriter(PayloadType):
     ]
     wrapper = False
     wrapped_payloads = []
+    semver = "v0.0.2"
     note = """
     This payload communicates with an existing Ghostwriter instance. In your settings, add your Ghostwriter API token as a secret with the key "GHOSTWRITER_API_KEY".
     """
